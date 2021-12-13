@@ -1,0 +1,187 @@
+<html>
+<head>
+	<style>
+		fieldset{
+			position: absolute;
+			top: 65%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+		}
+		ul{
+			float: right;
+			list-style-type: none;
+			margin-right: 40px;
+		}
+		ul li{
+			display: inline-block;
+		}
+
+		ul li a{
+			text-decoration: none;
+			color: #fff;
+			padding: 5px 20px;
+			border: 1px solid #fff;
+			transition: 0.6s ease;
+		}
+
+		ul li a:hover{
+			background-color: #fff;
+			color: #000;
+		}
+		header {
+			    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+        		background-image: url(background7.jpg);
+       			height: 110vh;
+        		background-size: cover;
+        		background-position: center;
+		}
+		h1{
+			font-size: 70p;
+			color: rgb(255, 255, 255);
+		}
+		input{
+			border-radius: 10px;
+			width: 250px;
+			height: 35px;
+			text-indent: 5px;
+		}
+		input:focus{
+			outline: none;
+		}
+		table{
+			font-size: 22px;
+		}
+		td{
+			line-height: 50px;
+		}
+		select{
+			border-radius: 10px;
+			width: 250px;
+			height: 35px;
+			text-indent: 5px;
+		}
+		select:focus{
+			outline: none;
+		}
+		fieldset{
+			width: 50px;
+			height: 530px;
+			background-color: rgba(255,255,255,.2);
+			box-shadow: 0 5px 15px rgba(0,0,0,.5);
+			outline: none;
+			border-radius: 10px;
+		}
+		input[type="submit"]{
+			background-color: yellow;
+			color: #000;
+			cursor: pointer;
+		}
+		.wrapper
+		{
+			background-color: #000;
+		}
+		p{
+			color: white;
+		}
+	</style>
+<meta charset=utf-8">
+<title>BOOKING FORM</title>
+</head>
+<body>
+	<header>
+		<div class="wrapper">
+			<div class="logo">
+				<img src="logo2.jpg" alt="" height="150">
+			<ul class="nav-area">
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="cars.html">CARS</a></li>
+				<li><a href="form.html">BOOKING FORM</a></li>
+				<li><a href="about.html">SERVICES</a></li>
+				<li><a href="feedback.html">FEEDBACK</a></li>
+			</ul>
+		</div>
+	<center>
+		<form>
+			<fieldset>
+				<table>
+					<h1>BOOKING FORM</h1>
+					<tr>
+						<th><p>CARS</p></th>
+						<td></td>
+						<td><select name="cars" placeholder="Cars">
+							<option value="car"> Select Your Car Code </option>
+							<option value="Alto"> Alto </option>
+							<option value="Jeep Compass"> Jeep Compass </option>
+							<option value="Fortuner"> Fortuner </option>
+							<option value="Baleno"> Baleno </option>
+							<option value="Creta"> Creta </option>
+							<option value="Honda cv-r"> Honda cv-r </option>
+							<option value="Swift"> Swift </option>
+							<option value="Rolls Royals Cullinan"> Rolls Royals Cullinan </option>
+							<option value="Bently Bentayga"> Bently Bentayga </option>
+							<option value="Honda Dio"> Honda Dio </option>
+							<option value="Honda Activa"> Honda Activa </option>
+							<option value="Suzuki Access"> Suzuki Access </option>
+							<option value="Ather 450"> Ather 450 </option>
+						</select></td>
+					</tr>
+					<tr>
+						<th><p>PICKUP</p></th>
+						<td></td>
+						<td><select name="pickup" placeholder="Pickup">
+							<option value="kothrud"> Kothrud </option>
+							<option value="deccan"> Deccan </option>
+						</select></td>
+					</tr>
+					<tr>
+						<th><p>DATE</p></th>
+						<td></td>
+						<td><input type="date" name="date" id="date1"></td>
+					</tr>
+					<tr>
+						<th><p>DROP OFF</p></th>
+						<td></td>
+						<td><select name="dropoff" placeholder="Drop Off">
+							<option value="kothrud"> Kothrud </option>
+							<option value="deccan"> Deccan </option>
+						</select></td>
+					</tr>
+					<tr>
+						<th><p>DATE</p></th>
+						<td></td>
+						<td><input type="date" name="Date" id="date2"></td>
+					</tr>
+					<tr>
+						<th><p>NAME</p></th>
+						<td></td>
+						<td><input type="text" name="name" id="name1" placeholder="Enter Your Name"></td>
+					</tr>
+					<tr>
+						<th><p>EMAIL</p></th>
+						<td></td>
+						<td><input type="email" name="email" id="emailid" placeholder="Email Address"></td>
+					</tr>
+					<tr>
+						<th><p>MOBILE NO.</p></th>
+						<td></td>
+						<td><input type="number" name="number" id="number1" placeholder="Phone Number"></td>
+					</tr>
+					<tr>
+						<th><p>LICENCE NO.</p></th>
+						<td></td>
+						<td><input type="number" name="numbe" id="number2" placeholder="Licence Number"></td>
+					</tr>
+				</table>
+				<div class="button" style="margin-top: 10px">
+					<tr>
+						<td>
+							<input type="submit" value="Confirm Car Booking" id="submit1" >
+						</td>
+					</tr>
+				</div>
+			</fieldset>
+		</form>
+	</center>
+	</header>
+</body>
+</html>

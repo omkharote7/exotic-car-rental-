@@ -1,0 +1,61 @@
+#feed
+{
+	background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(background11.jpg);
+	background-reapeat: no-reapeat;
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 100 px;
+	padding-bottom: 100 px;
+	background-align: center;
+}
+
+#feed h1
+{
+	text-align: center;
+	color: #efefef;
+	padding-bottom: 10px;
+	font-family: Comic Sans MS;
+}
+
+.contact-form
+{
+	padding: 15px;
+}
+
+.form-control
+{
+	border-radius: 0 !important;
+	border: none;
+}
+
+::placeholder
+{
+	color: #999 !important;
+}
+ul{
+	float: right;
+	list-style-type: none;
+	top: 5%;
+}
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid #fff;
+	transition: 0.6s ease;
+}
+
+ul li a:hover{
+	background-color: #fff;
+	color: #000;
+}
+.wrapper
+{
+	background-color: #000;
+}
